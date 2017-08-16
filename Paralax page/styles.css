@@ -9,6 +9,8 @@ html, body, main {
 
 body {
 	font-size: 10px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -51,11 +53,13 @@ body {
 
 h1 {
 	font-size: 4rem;
+	font-weight: 400;
 }
 
 h2 {
 	font-size: 3rem;
 	padding: 1rem;
+	font-weight: 400;
 }
 
 p {
