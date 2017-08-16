@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, main {
+	height: 100%;
+}
+
+body {
+	font-size: 10px;
+}
+
+
+.img-full {
+	height: 100% !important;
+}
+
+.img {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	opacity: 0.7;
+}
+
+#img1 {
+	background-image: url("img/image1-1000w.jpg");
+}
+
+#img2 {
+	background-image: url("img/image2-1000w.jpg");
+}
+
+#img3 {
+	background-image: url("img/image3-1000w.jpg");
+}
+
+#img4 {
+	background-image: url('img/image4-1000w.jpg');
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	padding: 3rem;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+	padding: 1rem;
+}
+
+p {
+	font-size: 1.5rem;
+	padding: 1rem;
+	letter-spacing: 0.5px;
+	width: 90%;
+}
+
+.light {
+	background-color: #FFF5F7;
+}
+
+
+.dark {
+	background: #023B4D;
+	color: #FFF5F7;
+}
+
+.img-text {
+	color: #FFF5F7;
+	padding: 2rem;	
+}
+
+.border {
+	background: rgba(128, 128, 128, 0.5);
+}
+
+@media (max-width: 768px) {
+	#img1 {
+		background-image: url('img/image1-768w.jpg');
+	}
+	
+	#img2 {
+		background-image: url('img/image2-768w.jpg');
+	}
+	
+	#img3 {
+		background-image: url('img/image3-768w.jpg');
+	}
+	
+	#img4 {
+		background-image: url('img/image4-768w.jpg');
+	}
+}
+
+@media (max-width: 500px) {
+	#img1 {
+		background-image: url('img/image1-500w.jpg');
+	}
+	
+	#img2 {
+		background-image: url('img/image2-500w.jpg');
+	}
+	
+	#img3 {
+		background-image: url('img/image3-500w.jpg');
+	}
+	
+	#img4 {
+		background-image: url('img/image4-500w.jpg');
+	}
+
+	.img {
+		background-attachment: scroll;
+	}
+}
