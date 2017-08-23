@@ -92,46 +92,6 @@ a {
 	display: none;
 }
 
-@media (max-width: 768px) {
-
-	.hide {
-		display: none !important;
-	}
-
-	#navbar {
-		min-height: 45px;
-	}
-
-	#nav-menu {
-		flex-direction: column;
-	}
-
-	#navbar ul li {
-		border-left: 0;
-		border-right: 0;
-	}
-
-	#hamburger-menu {
-		height: 45px;
-		display: flex;
-		justify-content: space-between;
-		padding: 0 2rem;
-	}
-
-	#hamburger-menu .fa-bars {
-		font-size: 3rem;
-		padding: 0;
-	}
-
-	#hamburger-menu p {
-		font-size: 2rem;
-	}
-
-	#hamburger-menu:hover + #nav-menu {
-		display: flex;
-	}
-}
-
 #showcase {
 	height: 400px;
 	flex-direction: column;
@@ -229,4 +189,80 @@ footer ul {
 
 .span-11 {
 	grid-column: span 11;
+}
+
+@media (max-width: 768px) {
+
+	.hide {
+		display: none !important;
+	}
+
+	#navbar {
+		min-height: 45px;
+	}
+
+	#nav-menu {
+		flex-direction: column;
+	}
+
+	#navbar ul li {
+		border-left: 0;
+		border-right: 0;
+	}
+
+	#hamburger-menu {
+		height: 45px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 2rem;
+	}
+
+	#hamburger-menu .fa-bars {
+		font-size: 3rem;
+		padding: 0;
+	}
+
+	#hamburger-menu p {
+		font-size: 2rem;
+	}
+
+	#hamburger-menu:hover + #nav-menu {
+		display: flex;
+	}
+
+	h1 {
+		font-size: 2rem;
+		padding: 0.7rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		padding: 0.7rem;
+	}
+
+	a {
+		font-size: 1.5rem;
+	}
+
+	.fa {
+		font-size: 5rem;
+		padding: 1.6rem;
+	}
+
+	#branding {
+		font-size: 2rem;
+	}
+
+	#branding div {
+		padding: 0.7rem;
+	}
+
+	.fa-plane {
+		font-size: 2rem !important;
+	}
+
+	#showcase {
+		height: 300px;
+	}
+
 }
