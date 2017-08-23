@@ -65,6 +65,11 @@ button:hover {
 	background-color: #E3FAFF;
 }
 
+button:active {
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4),
+				inset 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
 @media (min-width: 768px) {
 	#img1 {
 		background-image: url('img/image1-768w.jpg');
